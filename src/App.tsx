@@ -1,15 +1,14 @@
-import './App.css'
 import {} from 'react'
 
-import About from './components/about'
-import Contact from './components/contact'
-import Experience from './components/experience'
-import Footer from './components/experience'
-import Header from './components/header'
-import Nav from './components/nav'
-import Portfolio from './components/portfolio'
-import Services from './components/services'
-import Testimonials from './components/testimonials'
+import About from './components/about/about'
+import Contact from './components/contact/contact'
+import Experience from './components/experience/experience'
+import Footer from './components/experience/experience'
+import Header from './components/header/header'
+import Nav from './components/nav/nav'
+import Portfolio from './components/portfolio/portfolio'
+import Services from './components/services/services'
+import Testimonials from './components/testimonials/testimonials'
 
 function App() {
 
