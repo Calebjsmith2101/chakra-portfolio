@@ -3,16 +3,17 @@ import '@fontsource/open-sans/700.css'
 
 import * as React from 'react'
 
-import {ChakraProvider, Container, Heading, Stack, Text} from '@chakra-ui/react'
-
 import App from './App'
+import {ChakraProvider} from '@chakra-ui/react'
 import ReactDOM from 'react-dom/client'
 import { extendTheme } from "@chakra-ui/react"
 
 const theme = extendTheme({
   colors: {
     brand: {
-      100: '#CCD6F6'   
+      100: '#CCD6F6',
+      200: '#1F1F38',
+      300: '#6B728F'   
     },
   },
   styles: {

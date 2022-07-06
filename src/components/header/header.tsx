@@ -1,7 +1,7 @@
 import '@fontsource/raleway/400.css'
 import '@fontsource/open-sans/700.css'
 
-import { Box, Container, Heading, Image, Link, Stack, Text } from '@chakra-ui/react'
+import { Box, Heading, Image, Link, Text } from '@chakra-ui/react'
 
 const header = () => {
   return (
