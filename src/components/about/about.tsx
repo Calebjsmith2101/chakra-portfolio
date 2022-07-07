@@ -3,7 +3,7 @@ import { Box, Heading, Text } from '@chakra-ui/react'
 const about = () => {
   return (
     <>
-    <Box as="section" pb='198px' pl='200px' pr='200px'>
+    <Box as="section" pb='198px' pl='200px' pr='200px' id='about'>
       <Heading as='h5' size='4xl' noOfLines={1} color="brand.100" pb='10px'>About Me</Heading>
       <Text pb='5px' color="brand.300">Hello! My name is Caleb and I enjoy creating things that live on the internet.
           My interest in web development started back in 2019 when I decided to try editing

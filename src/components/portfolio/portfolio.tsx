@@ -55,8 +55,8 @@ const data = [
 const portfolio = () => {
   return (
     <>
-    <Box as="section">
-      <Heading as='h1' size='4xl' noOfLines={1} color="brand.100" pb='10px' pl='450px' pt="200px" pb="50px" >Portfolio</Heading>
+    <Box as="section" id='portfolio'>
+      <Heading as='h1' size='4xl' noOfLines={1} color="brand.100" pl='450px' pt="200px" pb="50px" >Portfolio</Heading>
       <Box>
         <HStack spacing='24px' pl="210px" pb="50px">
         <Box as="article" w='250px' h='250px'>

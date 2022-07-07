@@ -5,7 +5,7 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 const experience = () => {
   return (
     <>
-    <Box as="section">
+    <Box as="section" id='experience'>
     <Heading as='h1' size='4xl' noOfLines={1} color="brand.100" pb='10px' pl='500px'>Skills</Heading>
       <Box>
       <Heading as='h2' size='xl' pl='400px' pb='20px'>Frontend Development</Heading>

@@ -20,9 +20,6 @@ const header = () => {
             />
             
     </Box> 
-    <Box >
-    <Link href="#contact">Scroll to bottom</Link>
-    </Box>
     </Box>
     
   )
