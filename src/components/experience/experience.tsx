@@ -6,44 +6,56 @@ const experience = () => {
   return (
     <>
     <Box as="section">
-    <Heading as='h5' size='4xl' noOfLines={1} color="brand.100" pb='10px' pl='500px'>Skills</Heading>
+    <Heading as='h1' size='4xl' noOfLines={1} color="brand.100" pb='10px' pl='500px'>Skills</Heading>
       <Box>
-      <Heading as="h1" pl='400px' pb='10px'>Frontend Development</Heading>
+      <Heading as='h2' size='xl' pl='400px' pb='20px'>Frontend Development</Heading>
       <Box>
       <HStack pl='450px' pb='10px'>
+      <Box pb="20px">
       <BsPatchCheckFill />
+      </Box>
         <Box as="article">
-          <Heading as="h4">React</Heading>
-          <Text>Intermediate</Text>
+          <Heading as='h3' size='lg' color="brand.100">React</Heading>
+          <Text color="brand.300">Intermediate</Text>
         </Box>
+        <Box pb="20px">
         <BsPatchCheckFill />
+        </Box>
         <Box as="article">
-          <Heading as="h4">Chakra</Heading>
-          <Text>Intermediate</Text>
+          <Heading as='h3' size='lg' color="brand.100">Chakra</Heading>
+          <Text color="brand.300" >Intermediate</Text>
+          </Box>
+          </HStack >
+          <HStack pl='400px' pb='10px'>
+          <Box pb="20px">
+          <BsPatchCheckFill />
+          </Box>
+        <Box as="article">
+          <Heading as='h3' size='lg' color="brand.100">Javascript</Heading>
+          <Text color="brand.300">Intermediate</Text>
+        </Box>
+        <Box pb="20px">
+        <BsPatchCheckFill />
+        </Box>
+        <Box as="article">
+          <Heading as='h3' size='lg' color="brand.100">Typescript</Heading>
+          <Text color="brand.300">Intermediate</Text>
           </Box>
           </HStack>
           <HStack pl='450px' pb='10px'>
+          <Box pb="20px">
           <BsPatchCheckFill />
-        <Box as="article">
-          <Heading as="h4">Javascript</Heading>
-          <Text>Intermediate</Text>
-        </Box>
-        <BsPatchCheckFill />
-        <Box as="article">
-          <Heading as="h4">Typescript</Heading>
-          <Text>Intermediate</Text>
           </Box>
-          </HStack>
-          <HStack pl='450px' pb='10px'>
-          <BsPatchCheckFill />
         <Box as="article">
-          <Heading as="h4">HTML</Heading>
-          <Text>Experienced</Text>
+          <Heading as='h3' size='lg'color="brand.100">HTML</Heading>
+          <Text color="brand.300">Experienced</Text>
         </Box>
+        <Box pb="20px">
         <BsPatchCheckFill />
+        </Box>
         <Box as="article">
-          <Heading as="h4">CSS</Heading>
-          <Text>Experienced</Text>
+          <Heading as='h3' size='lg' color="brand.100">CSS</Heading>
+          <Text color="brand.300">Experienced</Text>
           </Box>
           </HStack>
      

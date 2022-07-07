@@ -1,8 +1,4 @@
-import { Box, Heading, Image, Link, Text } from '@chakra-ui/react'
-
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import { Box, Heading, Text } from '@chakra-ui/react'
 
 const about = () => {
   return (
