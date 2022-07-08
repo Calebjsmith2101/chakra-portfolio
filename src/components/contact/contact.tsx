@@ -3,15 +3,15 @@ import { Box, Button, Heading, Input, InputGroup, InputLeftElement, InputRightEl
 const contact = () => {
   return (
     <>
-    <Box as="section" pt="200px" id='contact'>
-      <Heading as='h5' size='4xl' noOfLines={1} color="brand.100" pb='20px' pl="400px">Contact Me</Heading>
+    <Box as="section" pt="80px" id='contact'>
+      <Heading as='h5' size='4xl' noOfLines={1} color="brand.100" pb='20px' ml={['85','', '400']} >Contact Me</Heading>
       <Box>
-        <Text pb='2px' color="brand.300" pl="300px">Although I’m not currently looking for any new opportunities, my inbox is always open.</Text>
-        <Text pb='20px'  color="brand.300" pl="300px">Whether you have a question or just want to say hi, I’ll try my best to get back to you!</Text>
+        <Text pb='2px' color="brand.300" ml={['40','42', '320']} mr={['40','42', '250']} fontSize={['sm', 'sl', 'sl']} textAlign={['center', 'center', 'left']}>Although I’m not currently looking for any new opportunities, my inbox is always open.</Text>
+        <Text pb='20px'  color="brand.300" ml={['40','42', '320']} mr={['40','42', '280']} fontSize={['sm', 'sl', 'sl']} textAlign={['center', 'center', 'left']}>Whether you have a question or just want to say hi, I’ll try my best to get back to you!</Text>
       </Box>
     </Box>
     <Box as="section" >
-    <Stack spacing={4} align="stretch" pl="225px" pb="200px">
+    <Stack spacing={4} align="stretch" pb="100px" ml={['10','10','60']} mr={['10','10','60']} display="flex" flex-wrap="wrap" justifyContent="center">
   <InputGroup w="800px">
     <Input type="text" name='name' placeholder='Your Full Name' required/>
   </InputGroup>

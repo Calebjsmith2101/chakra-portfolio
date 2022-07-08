@@ -17,7 +17,7 @@ const nav = () => {
     bottom="1rem"
     bg="brand.200"
     p={2}
-    ml={500}
+    left='calc(52% - 9rem)'
     borderRadius='50'
     opacity="80%"
          

@@ -55,19 +55,19 @@ const data = [
 const portfolio = () => {
   return (
     <>
-    <Box as="section" id='portfolio'>
-      <Heading as='h1' size='4xl' noOfLines={1} color="brand.100" pl='450px' pt="200px" pb="50px" >Portfolio</Heading>
+    <Box id='portfolio' pt="130px">
+      <Heading as='h1' size='4xl' noOfLines={1} color="brand.100" pl='450px' pb="50px" >Portfolio</Heading>
       <Box>
         <HStack spacing='24px' pl="210px" pb="50px">
         <Box as="article" w='250px' h='250px'>
           <Image src='https://calebjsmith.netlify.app/static/media/portfolio1.fb84f631db8ac3e84a2f.jpg' 
-           alt='Birthday Reminder' borderRadius='xl'pb='10px'/>
+           alt='Birthday Reminder' borderRadius='10%'pb='10px'/>
           <Heading as='h5' size='sm' color="brand.100" pb='10px'>Birthday Reminder</Heading>
           <Link href="https://github.com/Calebjsmith2101/birthday-reminder" 
                 isExternal
                 display="inline-block"
                 color="#42A799"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 m={3}>Github</Link>
@@ -75,20 +75,20 @@ const portfolio = () => {
                 isExternal
                 display="inline-block"
                 color="brand.200"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 bg="#42A799">Live Demo</Link>
         </Box> 
         <Box as="article" w='250px' h='250px'>
           <Image src='https://calebjsmith.netlify.app/static/media/portfolio2.3db9dd306739c41d0410.jpg' 
-           alt='Our Tours' borderRadius='xl'pb='10px'/>
+           alt='Our Tours' borderRadius='10%'pb='10px'/>
           <Heading as='h5' size='sm' color="brand.100" pb='10px'>Our Tours</Heading>
           <Link href="https://github.com/Calebjsmith2101/tours" 
                 isExternal
                 display="inline-block"
                 color="#42A799"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 m={3}>Github</Link>
@@ -96,20 +96,20 @@ const portfolio = () => {
                 isExternal
                 display="inline-block"
                 color="brand.200"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 bg="#42A799">Live Demo</Link>
         </Box> 
         <Box as="article" w='250px' h='250px'>
           <Image src='https://calebjsmith.netlify.app/static/media/portfolio3.b598132d25bcde6232f5.jpg' 
-           alt='Our Reviews'borderRadius='xl'pb='10px'/>
+           alt='Our Reviews'borderRadius='10%'pb='10px'/>
           <Heading as='h5' size='sm' color="brand.100" pb='10px'>Our Reviews</Heading>
           <Link href="https://github.com/Calebjsmith2101/Our-reviews" 
                 isExternal
                 display="inline-block"
                 color="#42A799"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 m={3}>Github</Link>
@@ -117,7 +117,7 @@ const portfolio = () => {
                 isExternal
                 display="inline-block"
                 color="brand.200"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 bg="#42A799">Live Demo</Link>
@@ -126,13 +126,13 @@ const portfolio = () => {
         <HStack spacing='24px'pl="210px"  pb="50px">
         <Box as="article" w='250px' h='250px'>
           <Image src='https://calebjsmith.netlify.app/static/media/portfolio4.3fe8a5758efe96c1fb05.jpg' 
-           alt='Accordion'borderRadius='xl'pb='10px'/>
+           alt='Accordion'borderRadius='10%'pb='10px'/>
           <Heading as='h5' size='sm' color="brand.100" pb='10px'>Accordion</Heading>
           <Link href="https://github.com/Calebjsmith2101/Accordion" 
                 isExternal
                 display="inline-block"
                 color="#42A799"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 m={3}>Github</Link>
@@ -140,20 +140,20 @@ const portfolio = () => {
                 isExternal
                 display="inline-block"
                 color="brand.200"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 bg="#42A799">Live Demo</Link>
         </Box> 
         <Box as="article" w='250px' h='250px'>
           <Image src='https://calebjsmith.netlify.app/static/media/portfolio5.ac218790479399669ac7.png' 
-           alt='Our Menu'borderRadius='xl'pb='10px'/>
+           alt='Our Menu'borderRadius='10%'pb='10px'/>
           <Heading as='h5' size='sm' color="brand.100" pb='10px'>Our Menu</Heading>
           <Link href="https://github.com/Calebjsmith2101/our-menu" 
                 isExternal
                 display="inline-block"
                 color="#42A799"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 m={3}>Github</Link>
@@ -161,20 +161,20 @@ const portfolio = () => {
                 isExternal
                 display="inline-block"
                 color="brand.200"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 bg="#42A799">Live Demo</Link>
         </Box> 
         <Box as="article" w='250px' h='250px'>
           <Image src='https://calebjsmith.netlify.app/static/media/portfolio6.1168bce3da171edad5ff.jpg' 
-           alt='Our Reviews'borderRadius='xl'pb='10px'/>
-          <Heading as='h5' size='sm' color="brand.100" pb='10px'>Our Tours</Heading>
+           alt='Our Reviews'borderRadius='10%'pb='10px'/>
+          <Heading as='h5' size='sm' color="brand.100" pb='10px'>Experience</Heading>
           <Link href="https://github.com/Calebjsmith2101/Experience" 
                 isExternal 
                 display="inline-block"
                 color="#42A799"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 m={3}
@@ -184,7 +184,7 @@ const portfolio = () => {
                 isExternal
                 display="inline-block"
                 color="brand.200"
-                padding="0.75rem 1.2rem"
+                padding="0.5rem 1rem"
                 border="1px solid"
                 borderRadius='xl'
                 bg="#42A799">Live Demo</Link>
