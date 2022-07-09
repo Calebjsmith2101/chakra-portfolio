@@ -11,21 +11,21 @@ const contact = () => {
       </Box>
     </Box>
     <Box as="section" >
-    <Stack spacing={4} align="stretch" pb="100px" ml={['10','10','60']} mr={['10','10','60']} display="flex" flex-wrap="wrap" justifyContent="center">
-  <InputGroup w="800px">
+    <Stack spacing={4} align="stretch" pb="100px" ml={['10','10','60']} mr={['10','10','60']}  w={[300, 400, 700]} >
+  <InputGroup  >
     <Input type="text" name='name' placeholder='Your Full Name' required/>
   </InputGroup>
-  <InputGroup w="800px">
+  <InputGroup>
     <Input type="email" name='email' placeholder='Your Email' required/>
     <InputRightElement />
   </InputGroup>
-  <InputGroup w="800px">
+  <InputGroup>
   <InputLeftElement
       pointerEvents='none'/>
   <Textarea name="message" placeholder='Your Message' required></Textarea>
   <InputRightElement />
   </InputGroup>
-  <Button type="submit" bg='#42A799' w="150px" color="brand.200" >Send Message</Button>
+  <Button type="submit" bg='#42A799' color="brand.200"  w={[150, 150, 150]}>Send Message</Button>
 </Stack>
         
         

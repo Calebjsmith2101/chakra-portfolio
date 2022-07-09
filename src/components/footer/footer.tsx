@@ -1,9 +1,10 @@
 import {
   Box,
+  Heading,
   Link,
   ListItem,
   Text,
-  UnorderedList,
+  UnorderedList
 } from '@chakra-ui/react'
 
 import {FiGithub} from 'react-icons/fi'

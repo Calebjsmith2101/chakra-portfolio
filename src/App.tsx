@@ -1,6 +1,7 @@
 import {} from 'react'
 
 import About from './components/about/about'
+import Bottom from './components/Bottom/bottom'
 import Contact from './components/contact/contact'
 import Experience from './components/experience/experience'
 import Footer from './components/footer/footer'
@@ -23,6 +24,7 @@ function App() {
     {/*<Testimonials />*/}
     <Contact />
     <Footer />
+    <Bottom />
     </div>
   )
 }
